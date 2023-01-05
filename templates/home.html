@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load fontawesome_5 %}
+{% fontawesome_5_static %}
+{% block content %}.
+    <div class="row">
+        <div class="col-lg-9">
+            <div class="mt-4 p-5 bg-secondary text-white rounded">
+                <h1 class="text-center">
+                    Welcome to Djang Yummy
+                </h1> <br>
+                <h2 class="text-center text-warning">Web for Youth </h2>
+                <p>
+                    <b>Our company help you to up performance to best company, </b>
+                    we provide many service for transform your company
+                    to digital business with software, technology, network,
+                    data system to business intelligence
+                    <i class="fas fa-smile-wink" style="color: yellow"></i>
+                    <i class="fas fa-smile-wink" style="color: yellow"></i>
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-3 text-center">
+            <img src="{% static 'images/general/orphich.png' %}"
+                 height="260px" width="200px">
+             <br> <br>
+            <div class="spinner-border text-success"></div>
+            <div class="spinner-grow text-warning"></div>
+            <div class="spinner-grow text-info"></div>
+            <div class="spinner-grow text-danger"></div>
+            <div class="spinner-border text-success"></div>
+        </div>
+    </div>
+
+    <hr size="5">
+     <br>
+    <div class="row">
+        <div class="col-lg-4 text-center">
+            <img src="{% static 'images/general/digital1.jpg' %}"
+                 class="rounded-circle" width="250px" height="200px">
+        </div>
+        <div class="col-lg-4 text-center">
+            <img src="{% static 'images/general/digital2.jpg' %}"
+                 class="rounded-circle" width="250px" height="200px">
+        </div>
+    <div class="col-lg-4 text-center">
+            <img src="{% static 'images/general/digital3.jpg' %}"
+                 class="rounded-circle" width="250px" height="200px">
+        </div>
+    </div>
+{% endblock %}

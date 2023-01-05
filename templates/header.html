@@ -1,0 +1,44 @@
+{% load static %}
+<div class="row">
+    <div class="col-lg-2 btn-secondary">
+        <img src="{% static 'images/general/logo.jpg' %}"
+             class="rounded-circle" width="100px" height="80px">
+    </div>
+    <div class="col-lg-10 text-white">
+        <h1 class="display-1"><b>Djang Yummy</b></h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark container-fluid">
+            <div class="container-fluid">
+                <i class="fas fa-university text-warning"></i>
+                <a class="navbar-brand" href="http://www.kkc.rmuti.ac.th" target="_blank">RMUTI.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                             <a class="nav-link fas fa-angle-double-right text-info text-md-center" href="javascript:void(0)">Link</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link fas fa-angle-double-right text-success text-md-center" href="javascript:void(0)">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fas fa-angle-double-right text-danger text-md-center" href="javascript:void(0)">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fas fa-angle-double-right text-white text-md-center" href="javascript:void(0)">Link</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>

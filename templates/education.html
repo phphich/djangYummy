@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1 class="text-primary">My Education</h1>
+    <h2 class="text-primary">Dr. Phitchayaphat Phiphitphatphaisit</h2>
+    <table class="table table-warning table-hover table-striped"
+           style="width: 90%;font-size: x-large;background-color: yellow;" align="center">
+        <tr class="bg-danger text-white">
+            <th width="20%">Degree</th>
+            <th width="40%">Degree Name</th>
+            <th width="40%">Institute</th>
+        </tr>
+        <tr>
+            <td>Vocational</td>
+            <td>Commercial</td>
+            <td>Nan Technical Collage</td>
+        </tr>
+        <tr>
+            <td>Diploma</td>
+            <td>Business Computer</td>
+            <td>Nan Technical Collage</td>
+        </tr>
+        <tr>
+            <td>Bachelor</td>
+            <td>Information System</td>
+            <td>Rajamangala University of Technology, Thunyaburi</td>
+        </tr>
+        <tr>
+            <td>Master</td>
+            <td>Inforamtion Technology</td>
+            <td>King Mongkut's University of Technology North Bangkok</td>
+        </tr>
+        <tr>
+            <td>Doctoral</td>
+            <td>Information Studies</td>
+            <td>Khon Khaen University</td>
+        </tr>
+    </table>
+    <br><br>
+    <a href="{% url 'home' %}" class="btn btn-primary"><i class="fa fa-home"></i> Home</a>
+    <br><br>
+{% endblock %}
